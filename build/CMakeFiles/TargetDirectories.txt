@@ -1,0 +1,9 @@
+/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/physics-lib.dir
+/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/rendering-lib.dir
+/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir
+/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/analysis-lib.dir
+/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/core-lib.dir
+/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/pendulum-visualizer.dir
+/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/test.dir
+/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/edit_cache.dir
+/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/rebuild_cache.dir

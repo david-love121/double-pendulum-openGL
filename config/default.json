@@ -1,0 +1,37 @@
+{
+  "window": {
+    "width": 1200,
+    "height": 800,
+    "fullscreen": false,
+    "vsync": true,
+    "title": "Double Pendulum Visualizer"
+  },
+  "pendulum": {
+    "l1": 1.0,
+    "l2": 1.0,
+    "m1": 1.0,
+    "m2": 1.0,
+    "g": 9.81,
+    "damping": 0.0
+  },
+  "simulation": {
+    "timestep": 0.001,
+    "initial_theta1": 1.0,
+    "initial_theta2": 0.0,
+    "initial_omega1": 0.0,
+    "initial_omega2": 0.0
+  },
+  "visualization": {
+    "show_labels": true,
+    "show_trails": false,
+    "camera_zoom": 0.3,
+    "line_thickness": 3.0,
+    "bob_radius": 0.1
+  },
+  "analysis": {
+    "default_resolution": [256, 256],
+    "default_range": [[-3.14159, 3.14159], [-3.14159, 3.14159]],
+    "integration_time": 5.0,
+    "color_scheme": 0
+  }
+}

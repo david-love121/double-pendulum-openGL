@@ -1,0 +1,212 @@
+[
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/physics-lib.dir/src/physics/PendulumState.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/PendulumState.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/PendulumState.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/physics-lib.dir/src/physics/PendulumState.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/physics-lib.dir/src/physics/LagrangianSolver.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/LagrangianSolver.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/LagrangianSolver.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/physics-lib.dir/src/physics/LagrangianSolver.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/physics-lib.dir/src/physics/cuda/KernelLauncher.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/KernelLauncher.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/KernelLauncher.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/physics-lib.dir/src/physics/cuda/KernelLauncher.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/opt/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include  --extended-lambda -diag-suppress=20012 -g -std=c++17 \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" \"--generate-code=arch=compute_89,code=[compute_89,sm_89]\" -x cu -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/pendulum_kernels.cu -o CMakeFiles/physics-lib.dir/src/physics/cuda/pendulum_kernels.cu.o",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/pendulum_kernels.cu",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/physics-lib.dir/src/physics/cuda/pendulum_kernels.cu.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/opt/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include  --extended-lambda -diag-suppress=20012 -g -std=c++17 \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" \"--generate-code=arch=compute_89,code=[compute_89,sm_89]\" -x cu -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/CudaPhysicsSolver.cu -o CMakeFiles/physics-lib.dir/src/physics/cuda/CudaPhysicsSolver.cu.o",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/CudaPhysicsSolver.cu",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/physics-lib.dir/src/physics/cuda/CudaPhysicsSolver.cu.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/physics-lib.dir/src/physics/cuda/CudaPhysicsEngine.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/CudaPhysicsEngine.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/CudaPhysicsEngine.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/physics-lib.dir/src/physics/cuda/CudaPhysicsEngine.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/rendering-lib.dir/src/rendering/Renderer.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/Renderer.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/Renderer.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/rendering-lib.dir/src/rendering/Renderer.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/rendering-lib.dir/src/rendering/Shader.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/Shader.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/Shader.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/rendering-lib.dir/src/rendering/Shader.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/rendering-lib.dir/src/rendering/Camera.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/Camera.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/Camera.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/rendering-lib.dir/src/rendering/Camera.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/rendering-lib.dir/src/rendering/Primitives.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/Primitives.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/Primitives.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/rendering-lib.dir/src/rendering/Primitives.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/rendering-lib.dir/src/rendering/TextRenderer.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/TextRenderer.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/TextRenderer.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/rendering-lib.dir/src/rendering/TextRenderer.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/rendering-lib.dir/src/rendering/TrailRenderer.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/TrailRenderer.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/TrailRenderer.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/rendering-lib.dir/src/rendering/TrailRenderer.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/opt/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include  --extended-lambda -diag-suppress=20012 -g -std=c++17 \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" \"--generate-code=arch=compute_89,code=[compute_89,sm_89]\" -x cu -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/cuda/CudaTrailRenderer.cu -o CMakeFiles/rendering-lib.dir/src/rendering/cuda/CudaTrailRenderer.cu.o",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/rendering/cuda/CudaTrailRenderer.cu",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/rendering-lib.dir/src/rendering/cuda/CudaTrailRenderer.cu.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/src/ui/UIManager.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/ui/UIManager.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/ui/UIManager.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/src/ui/UIManager.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/src/ui/ViewManager.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/ui/ViewManager.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/ui/ViewManager.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/src/ui/ViewManager.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/src/ui/SimulationView.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/ui/SimulationView.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/ui/SimulationView.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/src/ui/SimulationView.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/src/ui/AnalysisView.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/ui/AnalysisView.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/ui/AnalysisView.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/src/ui/AnalysisView.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/src/ui/ImGuiWrapper.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/ui/ImGuiWrapper.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/ui/ImGuiWrapper.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/src/ui/ImGuiWrapper.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/external/imgui/imgui.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/imgui.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/imgui.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/external/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/external/imgui/imgui_demo.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/imgui_demo.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/imgui_demo.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/external/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/external/imgui/imgui_draw.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/imgui_draw.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/imgui_draw.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/external/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/external/imgui/imgui_tables.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/imgui_tables.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/imgui_tables.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/external/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/external/imgui/imgui_widgets.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/imgui_widgets.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/imgui_widgets.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/external/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends/imgui_impl_glfw.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends/imgui_impl_glfw.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -g -std=gnu++17 -o CMakeFiles/ui-lib.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends/imgui_impl_opengl3.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/ui-lib.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/analysis-lib.dir/src/analysis/ChaosAnalyzer.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/analysis/ChaosAnalyzer.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/analysis/ChaosAnalyzer.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/analysis-lib.dir/src/analysis/ChaosAnalyzer.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/analysis-lib.dir/src/analysis/ColorMapper.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/analysis/ColorMapper.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/analysis/ColorMapper.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/analysis-lib.dir/src/analysis/ColorMapper.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/analysis-lib.dir/src/analysis/InitialConditions.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/analysis/InitialConditions.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/analysis/InitialConditions.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/analysis-lib.dir/src/analysis/InitialConditions.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/analysis-lib.dir/src/physics/cuda/KernelLauncher.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/KernelLauncher.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/KernelLauncher.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/analysis-lib.dir/src/physics/cuda/KernelLauncher.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/opt/cuda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include  --extended-lambda -diag-suppress=20012 -g -std=c++17 \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" \"--generate-code=arch=compute_89,code=[compute_89,sm_89]\" -x cu -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/pendulum_kernels.cu -o CMakeFiles/analysis-lib.dir/src/physics/cuda/pendulum_kernels.cu.o",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/physics/cuda/pendulum_kernels.cu",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/analysis-lib.dir/src/physics/cuda/pendulum_kernels.cu.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/core-lib.dir/src/core/Application.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/core/Application.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/core/Application.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/core-lib.dir/src/core/Application.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/core-lib.dir/src/core/Window.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/core/Window.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/core/Window.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/core-lib.dir/src/core/Window.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/core-lib.dir/src/core/Input.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/core/Input.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/core/Input.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/core-lib.dir/src/core/Input.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/pendulum-visualizer.dir/src/main.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/main.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/main.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/pendulum-visualizer.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+  "command": "/usr/bin/c++ -DUSE_CUDA -I/home/david/repos/spec-kit-testing/three-js-pendulum/include -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui -I/home/david/repos/spec-kit-testing/three-js-pendulum/external/imgui/backends -isystem /opt/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/pendulum-visualizer.dir/src/cuda_demo.cpp.o -c /home/david/repos/spec-kit-testing/three-js-pendulum/src/cuda_demo.cpp",
+  "file": "/home/david/repos/spec-kit-testing/three-js-pendulum/src/cuda_demo.cpp",
+  "output": "/home/david/repos/spec-kit-testing/three-js-pendulum/build/CMakeFiles/pendulum-visualizer.dir/src/cuda_demo.cpp.o"
+}
+]

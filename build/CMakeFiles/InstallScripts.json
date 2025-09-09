@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/david/repos/spec-kit-testing/three-js-pendulum/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

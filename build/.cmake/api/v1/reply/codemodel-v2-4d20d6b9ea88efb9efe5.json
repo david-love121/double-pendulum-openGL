@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DoublePendulumVisualizer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "analysis-lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-analysis-lib-35bc06cde44a6d07030f.json",
+					"name" : "analysis-lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "core-lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-core-lib-e802b17ad49304f1af1c.json",
+					"name" : "core-lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pendulum-visualizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pendulum-visualizer-bf615131ac55af9ef873.json",
+					"name" : "pendulum-visualizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "physics-lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-physics-lib-167771b17cd580f5c2c1.json",
+					"name" : "physics-lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rendering-lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rendering-lib-85a92f000d1b07917165.json",
+					"name" : "rendering-lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ui-lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ui-lib-49fa82340bcb873f6fac.json",
+					"name" : "ui-lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/david/repos/spec-kit-testing/three-js-pendulum/build",
+		"source" : "/home/david/repos/spec-kit-testing/three-js-pendulum"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -1,5 +1,5 @@
 # Double Pendulum OpenGL Visualizer
-
+  
 A high-performance OpenGL-based visualization of double pendulum dynamics with chaos analysis capabilities.
 
 ## Features
